@@ -9,8 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Marketing\Data\" />
-    <Folder Include="Areas\Marketing\Models\" />
     <Folder Include="Areas\RecursosHumanos\Controllers\" />
     <Folder Include="Areas\RecursosHumanos\Data\" />
     <Folder Include="Areas\RecursosHumanos\Models\" />

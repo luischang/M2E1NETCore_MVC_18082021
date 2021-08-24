@@ -13,10 +13,20 @@ namespace M2E1NETCore_MVC_Hello.Controllers
             return View();
         }
 
-
+        
         public IActionResult Login()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login(string Email, string Password)
+        {
+            if (Email == "luis@qboinstitute.com" && Password == "123456")
+            {
+                return RedirectToAction("Index", "Home", new { area = "Marketing" });
+            }
+            return RedirectToAction("Login");
         }
 
     }
